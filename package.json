@@ -1,9 +1,10 @@
 {
   "name": "rh-uxd-react-app",
-  "version": "0.1.4",
+  "version": "0.1.7",
   "description": "React application with two example pages for be included in a single-spa application as registered app.",
   "main": "dist/rh-uxd-react-app.js",
   "dependencies": {
+    "@patternfly/react-core": "^4.32.1",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-router-dom": "5.1.2",
@@ -42,9 +43,9 @@
     "@testing-library/jest-dom": "4.2.4",
     "@testing-library/react": "9.4.0",
     "@testing-library/user-event": "7.2.1",
-    "babel-loader": "8.0.6",
-    "clean-webpack-plugin": "3.0.0",
     "babel-eslint": "10.0.3",
+    "babel-loader": "8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "3.4.2",
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.0.0",
